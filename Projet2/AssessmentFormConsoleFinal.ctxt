@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=q\ choiceIdx
+comment0.target=double[]\ grader(mcq.Question,\ int)
+comment0.text=\r\n\ Evaluation\ de\ la\ r\u00E9ponse\r\n\ @param\ q\ est\ la\ question\r\n\ @param\ choiceIdx\ est\ l'indice\ de\ la\ r\u00E9ponse\r\n\ @param\ numQ\ est\ le\ num\u00E9ro\ de\ la\ question\r\n\ @return\ un\ tableau\ avec\ les\ notes\ des\ diff\u00E9rentes\ cotations\r\n
+comment1.params=q
+comment1.target=int\ getAnswer(mcq.Question)
+comment1.text=\r\n\ 1)\ Affiche\ la\ question\ dans\ la\ console\ et\ \r\n\ 2)\ propose\ les\ r\u00E9ponses/choix\ possibles\ \u00E0\ cette\ question\r\n\ 3)\ demande\ \u00E0\ l'utilisateur\ un\ choix\ parmi\ une\ ces\ r\u00E9ponse\ \r\n\ @param\ q\ est\ la\ question\ \u00E0\ proposer\ \u00E0\ l'utilisateur\r\n\ @return\ l'indice\ de\ la\ r\u00E9ponse\ faite\ par\ l'utilisateur\ apr\u00E8s\ pr\u00E9sentation\ de\ la\ question\ et\ des\ r\u00E9ponses\ possibles\ \r\n
+comment2.params=q\ tabChoix
+comment2.target=double\ toutesLesReponses(mcq.Question,\ int[])
+comment2.text=\r\n\ Evaluation\ o\u00F9\ l'utilisateur\ doit\ rentrer\ toutes\ les\ bonnes\ reponses\ pour\ avoir\ juste\r\n\ @param\ q\ est\ la\ qestion\r\n\ @param\ choiceIdx\ est\ l'indice\ de\ la\ r\u00E9ponse\ choisie\r\n\ @return\ +1\ si\ l'utilisateur\ a\ choisi\ toutes\ les\ bonnes\ reponses\ et\ 0\ sinon\r\n
+comment3.params=q
+comment3.target=int[]\ getMultipleAnswers(mcq.Question)
+comment3.text=\r\n\ 1)\ Affiche\ la\ question\ dans\ la\ console\ et\ \r\n\ 2)\ propose\ les\ r\u00E9ponses/choix\ possibles\ \u00E0\ cette\ question\r\n\ 3)\ demande\ \u00E0\ l'utilisateur\ tous\ les\ choix\ qu'il\ pense\ correcte\ parmi\ toutes\ ces\ r\u00E9ponses\r\n\ @param\ q\ est\ la\ question\ \u00E0\ proposer\ \u00E0\ l'utilisateur\r\n\ @return\ un\ tableau\ avec\ les\ indices\ des\ r\u00E9ponses\ choisient\ par\ l'uthg\ statusilisateur\ apr\u00E8s\ pr\u00E9sentation\ de\ la\ question\ et\ des\ r\u00E9ponses\ possibles\ \r\n
+comment4.params=choixCote\ questions\ prng
+comment4.target=void\ afficheTotal(int,\ mcq.Question[],\ PRNG)
+comment4.text=\r\n\ Affichage\ du\ total\ en\ fonction\ du\ choix\ de\ cotation\ choisi\r\n\ @param\ choixCote\ \:\ le\ choix\ de\ cotation\ choisi\r\n\ @param\ questions\ \:\ le\ tableau\ de\ question\ tir\u00E9\ du\ fichi\u00E9\ texte\r\n\ @param\ prng\ \:\ le\ prng\ choisi\ pour\ le\ pseudo-al\u00E9atoire\r\n
+comment5.params=questions\ numQuest
+comment5.target=void\ correction(mcq.Question[],\ int)
+comment5.text=\r\n\ Affiche\ la\ correction\ du\ QCM\r\n\ @param\ question\ est\ le\ tableau\ avec\ toutes\ les\ questions\r\n\ @param\ numQuest\ est\ le\ num\u00E9ro\ du\ questionnaire\ choisi\r\n
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

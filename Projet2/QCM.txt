@@ -1,0 +1,51 @@
+Q|Quelle est la couleur du cheval blanc de NapolŽon ?
+A|Brun|V
+A|Bleu|X
+A|Violet|X
+
+Q|Combien de jours dans un mois ?
+A|28|V|c'est en fevrier
+A|29|V
+A|30|V
+A|31|V
+A|25|X
+
+Q|Quel est l'Žquivalent amŽricain de l'ESA (European Space Agency) ?
+A|NASA|V
+A|NSA|X|La NSA est la National Security Agency
+A|FBI|X
+
+Q|Quelle est la couleur du cheval blanc de NapolŽon V2?
+A|Brun|V
+A|Bleu|X
+A|Violet|X
+
+Q|Quel est la capitale de Belgique?
+A|Bx|V
+A|Paris|X
+A|Luxembourg|X
+
+Q|Quel est le nom des habitants de France?
+A|Des françois|X
+A|Des français|V
+A|franciscain|X
+
+Q|Quel est le contraire d'intermittent ?
+A|intermédiaire|X
+A|occasionnel|X
+A|permanent|V
+
+Q|Quelle est la capitale de l'Afghanistan ?
+A|Bagdad|X
+A|Kaboul|V
+A|Islamabad|X
+
+Q|En 2015, dans quel pays se déroulera la Coupe du monde de rugby ?
+A|Royaume-Uni|V
+A|Nouvelle-Zélande|X
+A|Afrique du Sud|X
+
+Q|Les erreurs que tu as ... sont insupportables :
+A|commises|V
+A|commies|X
+A|commis|X

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=seed
+comment0.target=PRNG(int)
+comment1.params=
+comment1.target=int\ nextInt()
+comment1.text=\r\n\ \r\n\ @return\ next\ random\ number\:\ All\ 2^32\ possible\ int\ values\ are\ produced\ with\ (approximately)\ equal\ probability.\r\n
+comment2.params=n
+comment2.target=int\ nextInt(int)
+comment2.text=\r\n\ @param\ n\ >\ 0\r\n\ @return\ next\ random\ number\ between\ 0\ and\ n-1.\ All\ the\ values\ 0,\ ...,\ n-1\ are\ produced\ with\ (approximately)\ equal\ probability.\r\n
+numComments=3
